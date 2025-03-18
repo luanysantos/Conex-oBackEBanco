@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro e Pesquisa de Jogos</h1>
+        <form action="submit" id="cadastro-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required> <br><br>
+
+            <label for="plataforma">Plataforma:</label>
+            <input type="text" id="plataforma" name="plataforma" required>
+
+            <input type="submit" value="Cadastrar">
+            <input type="submit" value="Atualizar">
+            <input type="submit" value="Excluir">
+        </form>
+
+        <form action="submit" id="pesquisa-form">
+            <label for="id-jogo">ID do Jogo:</label>
+            <input type="text" id="id-jogo" name="id-jogo" required>
+
+            <input type="submit" value="Pesquisar">
+        </form>
+    </div>
+</body>
+</html>
